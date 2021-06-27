@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varun's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="flex items-center justify-between">
+                <div class="left flex items-center">
+
+                    <div>
+                        <a href="#"> Home  </a>
+                        <a href="#about"> About Me  </a>  
+                        <a href="#profile">Profile</a> 
+                        <a href="#projects">Projects</a>                         
+                    </div>
+                </div>
+                <div class="right">
+                    <a href="#contact"><button class="btn btn-primary">Contact</button></a>
+                </div>
+            </nav>
+            <div class="hero flex items-center justify-between">
+                <div class="left flex-1">
+                    <img src="./images/DP-removebg-preview.png" alt="">                 </div>
+                <div class="right flex-1">
+                    <h6>I am</h6>
+                    <h1>Varun V Nair</h1>
+                    <h4>An Engineer</h4>
+                    <p>A cybersecurity enthusiast with a keen interest in pentesting and network security</p>
+                    <button class="btn btn-secondary">Download Resume</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <a name="about"></a>
+
+    <section class="about">
+        <div class="container2 items-center">
+            <div class="flex-1">    
+                <h1>About <span>Me</span></h1>
+                <h3>Hi, I am Varun</h3>
+                <p>I am a computer science student currently pursuing my engineering degree.
+                    I live in Kottayam, Kerala, India. In my spare time, I like to brush up 
+                    my skills on penetration testing and computer network vulnerabilities.
+                    I have also  done two solo non-academic projects which are published on
+                    my github repository. The two projects include a password cracker(BrutCracker) 
+                    and a keylogger(SpyK).
+                </p>
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/varunvnairofficial/"><img src="./images/icons/linkedin.png" width="25" height="25" alt=""></a>
+                    <a href="https://www.facebook.com/varunvnair003/"><img src="./images/icons/facebook.png" width="25" height="25" alt=""></a>
+                    <a href="https://github.com/varunvnair003"><img src="./images/icons/github-logo-silhouette-in-a-square.png" width="25" height="25" alt=""></a>
+                    <a href="https://twitter.com/varunvnair003"><img src="./images/icons/twitter.png" width="25" height="25" alt=""></a>
+                </div>
+            </div>    
+        </div>
+    </section>
+
+    <a name="profile"></a>
+
+    <section class="profile">
+        <h1 class="section-heading"><span>My</span> Profile</h1>
+        <p>I like to be acknowledged as </p>
+        <div class="card-wrapper container2">
+            
+            <div class="card">
+                <img src="./images/code-rem.png" width="40" height="40" alt="">
+                <h2>Developer</h2>
+                <p>
+                    I love programming both web and desktop applications using Java, Javascript and Python.
+                </p>
+
+            </div>
+
+            <div class="card">
+                <img src="./images/lock-rem.png" width="40" height="40" alt="">
+                <h2>Ethical Hacker</h2>
+                <p>In my spare time, I like to learn more about ethical hacking and cybersecurity.</p>
+
+            </div>
+
+            <div class="card">
+                <img src="./images/shield-rem.png" width="40" height="40" alt="">
+                <h2>Security Researcher</h2>
+                <p>
+                    I am on my way to become a reputable and well established security reasercher.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <a name="hiring"></a>
+
+    <section class="hiring">
+        <div class="available container3">
+        <h1>I am Available.</h1>
+        <p>Hey there, If you are seeing this it means I am available for answering 
+            queries and questions related to the above mentioned fields.<br>
+            Contact me using the socials linked <a href="#">above</a>
+            <div class="br"></div>
+            If you are interested in hiring me, email me on 
+            <b> <u>varunvnairofficial@gmail.com</u> </b>
+        </div>
+        </p>
+
+    </section>
+
+    <a name="projects"></a>
+
+    <section class="projects">
+        <div class="container2">
+            <h1 class="section-heading"><span>My</span> Projects </h1>
+            <p>These are my published projects in Github</p>
+            
+            <div class="card-wrapper">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="./images/BrutCracker.png" height="100" alt="">
+                    </div>
+
+                    <div class="card-content">
+                        <a href="https://github.com/varunvnair003/BrutCracker">
+                            <h1>BrutCracker</h1>
+                        </a>
+                        <span>May 8,2021</span>
+                        <p>
+                            A normal password cracking tool which uses dictionary 
+                            attack to crack weak passwords for any sha256(utf-8) hash.
+                        </p>
+                        <a href="https://github.com/varunvnair003/BrutCracker">Download</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="./images/SpyK.png" height="100" alt="">
+                    </div>
+
+                    <div class="card-content">
+                        <a href="https://github.com/varunvnair003/SpyK">
+                            <h1>SpyK</h1>
+                        </a>
+                        <span>May 8,2021</span>
+                        <p>
+                            A simple and useful keylogger for newbie cybersecurity and computer nerds to learn. 
+                            This python script was made with the help of "pynput" package in python.
+                        </p>
+                        <a href="https://github.com/varunvnair003/SpyK">Download</a>
+                    </div>
+                </div>
+
+            </div>
+            
+
+
+
+        </div>
+
+
+    </section>
+
+    <a name="contact"></a>
+
+    <section class="contact">
+        <div class="container2">
+            <h1 class="section-heading">Contact <span>Me</span></h1>
+            <p>Get in touch with me</p>
+            <div class="card-wrapper">
+                <div class="card">
+                    <img src="./images/phone-2.png" width="55" height="45" alt="">
+                    <h2>Call Me On</h2>
+                    <h6>+91 94465 05915</h6>
+                </div>
+
+                <div class="card">
+                    <img src="./images/msg.png" width="45" height="45" alt="">
+                    <h2>Email Me On</h2>
+                    <h6>varunvnairofficial@gmail.com</h6>
+                </div>
+
+            </div>
+
+            <form id="contact-form" method="POST" action="./form.php">
+
+                <div class="input-wrap">
+                    <input type="text" placeholder="Your Name" name="name" id="name" required>
+                    <input type="email" placeholder="Your Email" name="email" id="email" required>
+                </div>
+                <div class="input-wrap-2">
+                    <input type="text" placeholder="Your Subject" name="subject" id="subject">
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message..." required></textarea>
+                </div>
+                <div class="btn-wrapper">
+                    <input type="submit" class="forn-control submit btn btn-primary" value="  Send Message  ">
+                </div>
+
+            </form>
+        </div>
+    </section>
+
+    <footer>
+
+        <div class="footer">
+            <a href="https://www.linkedin.com/in/varunvnairofficial/"><img src="./images/icons/linkedin.png" width="25" height="25" alt=""></a>
+            <a href="https://www.facebook.com/varunvnair003/"><img src="./images/icons/facebook.png" width="25" height="25" alt=""></a>
+            <a href="https://github.com/varunvnair003"><img src="./images/icons/github-logo-silhouette-in-a-square.png" width="25" height="25" alt=""></a>
+            <a href="https://twitter.com/varunvnair003"><img src="./images/icons/twitter.png" width="25" height="25" alt=""></a>
+        </div>
+        <div>
+            Copyright 2021 © Varun V Nair. All Rights Reserved.
+        </div>
+    </footer>
+
+
+</body>
+</html>
